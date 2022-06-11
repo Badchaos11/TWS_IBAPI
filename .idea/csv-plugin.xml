@@ -10,7 +10,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Test_Amer_With_Contracts_220607.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Test_Amer_With_Contracts_220607_2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Test_CSV.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Test_CSV_Amer_09.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -24,7 +45,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Test_Hedges.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Test_Hedges_2_Amer.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Test_Imp_Vol.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

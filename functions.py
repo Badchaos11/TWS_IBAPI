@@ -1,5 +1,4 @@
 import datetime
-import re
 import threading
 import time
 
@@ -47,6 +46,10 @@ def contractor(data: list):
     contract.right = data[3]
     contract.strike = data[4]
     contract.lastTradeDateOrContractMonth = data[6]
+    if data[0] == 'UBI':
+        contract.tradingClass = 'US1'
+    if data[0] == 'TTE':
+        contract.tradingClass = 'TOT4'
 
     return contract
 
@@ -62,6 +65,7 @@ def contractor_hedges(data: list):
     contract.right = 'P'
     contract.strike = data[3]
     contract.lastTradeDateOrContractMonth = data[5]
+    contract.tradingClass = data[7]
 
     return contract
 
@@ -85,7 +89,7 @@ def ask_checker(ticker: list):
     x = app.reqRealTimeBars(19001, contract, whatToShow='ASK', useRTH=True, barSize=5, realTimeBarsOptions=[])
     print('Ordered')
     print(f'timestamp: {datetime.datetime.now().timestamp()}')
-    time.sleep(2)
+    time.sleep(5)
     app.disconnect()
     time.sleep(2)
     print('Disconected')
@@ -115,10 +119,10 @@ def bid_checker(ticker: list):
     x = app.reqRealTimeBars(19001, contract, whatToShow='BID', useRTH=True, barSize=5, realTimeBarsOptions=[])
     print('Ordered')
     print(f'timestamp: {datetime.datetime.now().timestamp()}')
-    time.sleep(1.5)
+    time.sleep(5)
     app.disconnect()
     print('Disconected')
-
+    time.sleep(2)
     print('Печатаю x')
     print(x)
 
