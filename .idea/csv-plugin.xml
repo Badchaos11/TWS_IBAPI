@@ -17,6 +17,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Full_Test_As_Need.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Full_Test_With_Dropa.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\GuruFocus_NAS_INTC_Financial_2022-6-20 at 13_49.csv">
           <value>
             <Attribute>
