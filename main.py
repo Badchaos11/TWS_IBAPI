@@ -2,14 +2,12 @@ import datetime
 import threading
 import time
 
+import gspread as gd
+import pandas as pd
 from ibapi.client import EClient
 from ibapi.common import SetOfString, SetOfFloat, TickerId, BarData
 from ibapi.contract import Contract
-from ibapi.ticktype import TickType
 from ibapi.wrapper import EWrapper
-import gspread as gd
-import pandas as pd
-
 
 imp_opt_vol = []
 hist_run = []

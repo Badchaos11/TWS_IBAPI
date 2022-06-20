@@ -3,70 +3,77 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\Euro_Asks_220607.csv">
+        <entry key="\Data_for_Portfolio.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\Test_Amer_With_Contracts_220607.csv">
+        <entry key="\Full_Test.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\Test_Amer_With_Contracts_220607_2.csv">
+        <entry key="\GuruFocus_NAS_INTC_Financial_2022-6-20 at 13_49.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\Test_CSV.csv">
+        <entry key="\GuruFocus_NYSE_HL_Financial_2022-6-17 at 12_28.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\Test_CSV_Amer_09.csv">
+        <entry key="\GuruFocus_NYSE_HMY_Financial_2022-6-17 at 12_28.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\Test_Euro-With_Contracts_220607.csv">
+        <entry key="\Test_1.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\Test_Hedges.csv">
+        <entry key="\Test_2.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\Test_Hedges_2_Amer.csv">
+        <entry key="\Test_3.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\Test_Imp_Vol.csv">
+        <entry key="\guru_files\GuruFocus_AMEX_BTG_Financial_2022-6-20 at 17_20.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\USA_Asks_220606_2.csv">
+        <entry key="\guru_files\GuruFocus_AMEX_EQX_Financial_2022-6-20 at 17_30.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\guru_files\GuruFocus_NYSE_SAND_Financial_2022-6-20 at 17_42.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
